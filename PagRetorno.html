@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PagRetorn.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+        <h1 class="titulo"> Agradecemos o seu contato!</h1>
+      <br>
+        <p class="paragrafo"> Aguarde que em breve nossa equipe de vendas entrará em contato com você para dar continuidade ao seu atendimento.</p>
+      <br><br>
+      
+      <div class="image">
+      <img class="img" src="IMG/Imagem do WhatsApp de 2023-01-09 à(s) 11.41.45.jpg" alt="Logo LM Cosmetics">
+    </div>
+
+    <h1 class="avali">Nos Avalie</h1>
+
+    <div class="avaliacao" >
+        
+            <p class="star-icon ativo" data-avaliacao="1"></p>
+            <p class="star-icon" data-avaliacao="2"></p>
+            <p class="star-icon" data-avaliacao="3"></p>
+            <p class="star-icon" data-avaliacao="4"></p>
+            <p class="star-icon" data-avaliacao="5"></p>
+
+          
+    </div>
+    
+
+     
+      <script src="script.js"></script>
+
+              <!-- Footer -->
+    
+    <div class="rodape-principal">
+        <div>
+            <p class="titulo-rodape"></p>
+            <p class="texto-rodape">Este é um projeto desenvolvido pelo Grupo 2<br>
+            Bootcamp Salesforce Turma 7</p>
+            <div class="redes-sociais">
+                <a href="https://pt-br.facebook.com/SoulCodeAcademy/" target="_blank"><img src="img/facebook.png" alt="logo Facebook" width="40px"></a>
+                <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img src="img/instagram.png" alt="logo Instagram" width="40px"></a>
+                <a href="https://www.linkedin.com/company/soulcodeacademy" target="_blank"><img src="img/linkedin.png" alt="logo Linkedin" width="40px"></a>
+            </div>
+        </div>
+  
+        <div >
+            <p class="titulo-rodape">Integrantes</p>
+            <p class="texto-rodape">Ana Carolina de Oliveira                
+                <br>Marina Saraiva
+                <br>Keila Del Pezzo
+                <br>Marcelo Lameu
+                <br>Micahel Robson</p>
+          </div>
+          <div>
+            <p class="titulo-rodape">LM Cosmetics</p>
+            <p class="texto-rodape"><a href="PagSobre.html">Sobre Nos</a><br>
+            <a href="Pagcontato.html">Contato</a><br>
+            <a href="produtos.html">Produtos</a><br>
+            <a href="index.html">Inicio</a><br>
+            
+        </div>
+  
+        <div>
+            <h2 class="titulo-rodape">Atendimento ao Cliente</h2>
+            <p class="texto-rodape" style="margin-bottom: -20px;"></p>
+            
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+    
+        <input type=hidden name="orgid" value="00DDn000007pSLS">
+        <input type=hidden name="retURL" value="http://LM-Cosmetics.ana-carolina178.repl.co">
+        
+        <!--  ----------------------------------------------------------------------  -->
+        <!--  NOTA: Estes campos são elementos de depuração opcionais. Remova o       -->
+        <!--  comentário dessas linhas se quiser testar no modo de depuração.         -->
+        <!--  <input type="hidden" name="debug" value=1>                              -->
+        <!--  <input type="hidden" name="debugEmail"                                  -->
+        <!--  value="lm.cosmetics.ltda@gmail.com">                                    -->
+        <!--  ----------------------------------------------------------------------  -->
+        <div class="case">
+        <label for="name">Nome: </label><br>
+        <input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+        
+        <label for="phone">Telefone: </label><br>
+        <input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+    </div>
+        <div class="case">
+        <label for="email">Email: </label><br>
+        <input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+        
+        <label for="subject">Assunto: </label><br>
+        <input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br><br>
+    </div>
+        <input class="envia" type="submit" name="submit">
+        </div>
+    </div>
+  </div>
+    
+    </div>
+  </div>
+    <footer class="rodape">
+        <p>Todos os direitos reservados © Lm Cosmetics Janeiro 2023</p>
+        
+    </footer>
+      
+
+</body>
+</html>
